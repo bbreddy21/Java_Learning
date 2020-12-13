@@ -1,0 +1,21 @@
+
+public class TypeCasting {
+	
+public static void main(String[] args) {
+	char c = 66;
+	
+	System.out.println("Implicit type casting");
+	
+	short s = (short) c;
+	int i = c;
+	long l = c;
+	float f = c;
+	double d = i;
+	System.out.println("Value of s : " + s);
+	System.out.println("Value of i : " + i);
+	System.out.println("Value of l : " + l);
+	System.out.println("Value of f : " + f);
+	System.out.println("Value of d : " + d);
+}	
+
+}

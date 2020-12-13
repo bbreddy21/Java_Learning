@@ -1,0 +1,10 @@
+package pack1;
+
+public class DeFAccessSpecifier {
+
+	void display() {
+
+		System.out.println("I am Default method in default access");
+	}
+
+}

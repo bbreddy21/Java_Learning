@@ -1,0 +1,15 @@
+
+public class TypeCasting {
+	
+public static void main(String[] args) {
+	char c = 66;
+	System.out.println("Implicit type casting");
+	
+	short s = (short) c;
+	int i = c;
+	
+	System.out.println(s);
+	System.out.println(i);
+}	
+
+}

@@ -1,0 +1,11 @@
+
+public class FirstProgram {
+
+	public static void main(String args[]) {
+
+		Variables var = new Variables();
+		System.out.println(var.data);
+		System.out.println(Variables.m);
+	}
+
+}

@@ -1,0 +1,14 @@
+package pack2;
+
+import pack1.DeFAccessSpecifier;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DeFAccessSpecifier def = new DeFAccessSpecifier(); 
+		def.display1();
+		
+	}
+
+}
