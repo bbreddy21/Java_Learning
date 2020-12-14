@@ -1,8 +1,0 @@
-package pack3;
-
-public class Test {
-	
-	PrivateAccessSpecifier priv = new PrivateAccessSpecifier();
-	priv.welcome();
-
-}
