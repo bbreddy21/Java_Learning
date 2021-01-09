@@ -20,11 +20,12 @@ public class ArrayListDemo {
 		cities.add("kolkatta");
 		cities.add("Bangalore");
 		//cities.add(null);
-		// ArrayList maintains order and duplicates
+		// ArrayList maintains order of Insertion and accepts duplicates
 		System.out.println("****Using default ****");
 		System.out.println(cities);
 		System.out.println(cities.size());
 		Collections.sort(cities);
+		System.out.println("****After Sorting****");
 		System.out.println(cities);
 		// remove,size,set(index,value),get(1),indexof(),lastindexof(),Arrays.aslist()
 		// using for each loop
@@ -34,7 +35,7 @@ public class ArrayListDemo {
 			System.out.println(city);
 		}
 		System.out.println("****************");
-		System.out.println("using iterator");
+		System.out.println("using iterator which gives sorted list");
 		Iterator<String> iterator = cities.iterator();
 		while (iterator.hasNext()) {
 			System.out.println(iterator.next());

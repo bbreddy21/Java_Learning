@@ -16,7 +16,7 @@ public class LinkedArrayListDemo {
 		cities.add("kolkatta");
 		cities.add("Bangalore");
 		//cities.add(null);
-		// ArrayList maintains order and duplicates
+		// ArrayList maintains order and allows duplicates
 		System.out.println(cities);
 		System.out.println(cities.size());
 		Collections.sort(cities);

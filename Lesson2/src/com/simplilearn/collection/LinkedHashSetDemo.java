@@ -19,7 +19,7 @@ public class LinkedHashSetDemo {
 		cities.add(null);
 		cities.add(null);
 		System.out.println(cities);
-
+       //only 1 null is allowed
 	}
 
 }
